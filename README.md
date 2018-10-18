@@ -10,7 +10,7 @@ Css progress bars made with svg patterns.
 
 ### Live demo
 
-(codepen link)
+https://codepen.io/lucagez/full/ReMLVV/
 
 
 

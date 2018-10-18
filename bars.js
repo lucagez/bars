@@ -1,7 +1,5 @@
 const bars = document.querySelectorAll('.bar');
 const progress = document.querySelectorAll('.progress');
-// bars[1].style.width = '50%';
-// console.log(bars[1].style.width);
 
 bars.forEach((bar, index) => {
   const randomWidth = Math.floor((Math.random() * 65) + 10);
