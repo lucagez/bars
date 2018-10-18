@@ -1,6 +1,6 @@
 # Bars
 
-Css progress bars made using svg patterns.
+Css progress bars made with svg patterns.
 
 
 
