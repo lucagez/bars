@@ -1,22 +1,34 @@
+* {
+    border: 1px solid red;
+}
+
 body {
     background: #E5E5E5;
 }
 
+.container {
+    text-align: center
+}
+
 .progress {
+    display: inline-block;
     width: 400px;
     height: 50px;
-    margin: 60px;
+    margin: 35px;
     border-radius: 20px;
     background: #f9f9f9;
 }
 
 .bar {
-    /* width: 0px; */
     height: 50px;
     border-radius: 20px;
-    animation-name: filling;
-    animation-duration: 2s;
-    /* margin: 50px; */
+    /* animation-name: filling;
+    animation-duration: 2s; */
+    width: 0%;
+    /* transition-delay: 1s; */
+    transition: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 
 @keyframes filling {
