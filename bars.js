@@ -4,7 +4,7 @@ const progress = document.querySelectorAll('.progress');
 // console.log(bars[1].style.width);
 
 bars.forEach((bar, index) => {
-  const randomWidth = Math.floor((Math.random() * 60) + 20);
+  const randomWidth = Math.floor((Math.random() * 65) + 10);
   bar.style.width = `${randomWidth}%`;
 
   progress[index].addEventListener('mouseover', () => {
