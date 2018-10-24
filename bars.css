@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url("https://fonts.googleapis.com/css?family=Bitter");
 
 * {
     /* border: 1px solid red; */
 }
 
 :root {
-    --font: 'Bitter', serif;
+    --font: "Bitter", serif;
     --title-size: 36px;
     --sub-size: 18px;
 }
 
 body {
-    background: #E5E5E5;
+    background: #e5e5e5;
 }
 
 .title h1 {
@@ -52,7 +52,7 @@ body {
     height: 100%;
     transition: width;
     transition-duration: 1s;
-    transition-timing-function: cubic-bezier(.36,.55,.63,.48);
+    transition-timing-function: cubic-bezier(0.36, 0.55, 0.63, 0.48);
 }
 
 .mobile {
@@ -61,11 +61,11 @@ body {
 
 .shadow {
     /* 25 50 */
-    box-shadow: 0px 45px 50px rgba(0, 0, 0, 0.25); 
+    box-shadow: 0px 45px 50px rgba(0, 0, 0, 0.25);
 }
 
 .crosses {
-    background-color: #DFDBE5;
+    background-color: #dfdbe5;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -121,7 +121,7 @@ body {
 
 .ticTac {
     background-color: #ffefaa;
-    background-image: url("data:image/svg+xml,%3Csvg width='76' height='76' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23ffadad' fill-opacity='0.84' fill-rule='evenodd'/%3E%3C/svg%3E");  
+    background-image: url("data:image/svg+xml,%3Csvg width='76' height='76' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23ffadad' fill-opacity='0.84' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .zigZag {
@@ -190,3 +190,213 @@ body {
     }
 }
 
+
+/* Indeterminate Classes and Animations */
+
+.indeterminate-16 {
+    animation: indeterminate-16 0.25s linear infinite;
+}
+
+.indeterminate-20 {
+    animation: indeterminate-20 0.5s linear infinite;
+}
+
+.indeterminate-25 {
+    animation: indeterminate-25 0.5s linear infinite;
+}
+
+.indeterminate-28 {
+    animation: indeterminate-28 0.25s linear infinite;
+}
+
+.indeterminate-40 {
+    animation: indeterminate-40 0.5s linear infinite;
+}
+
+.indeterminate-52 {
+    animation: indeterminate-52 0.5s linear infinite;
+}
+
+.indeterminate-56 {
+    animation: indeterminate-56 0.5s linear infinite;
+}
+
+.indeterminate-50 {
+    animation: indeterminate-50 0.5s linear infinite;
+}
+
+.indeterminate-60 {
+    animation: indeterminate-60 0.5s linear infinite;
+}
+
+.indeterminate-70 {
+    animation: indeterminate-70 0.5s linear infinite;
+}
+
+.indeterminate-76 {
+    animation: indeterminate-76 0.5s linear infinite;
+}
+
+.indeterminate-80 {
+    animation: indeterminate-80 0.5s linear infinite;
+}
+
+.indeterminate-100 {
+    animation: indeterminate-100 1s linear infinite;
+}
+
+.indeterminate-120 {
+    animation: indeterminate-120 1s linear infinite;
+}
+
+.indeterminate-126 {
+    animation: indeterminate-126 1s linear infinite;
+}
+
+.indeterminate-150 {
+    animation: indeterminate-150 1s linear infinite;
+}
+
+@keyframes indeterminate-16 {
+    from {
+        background-position: 16px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-20 {
+    from {
+        background-position: 20px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-25 {
+    from {
+        background-position: 25px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-28 {
+    from {
+        background-position: 28px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-40 {
+    from {
+        background-position: 40px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-50 {
+    from {
+        background-position: 50px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-52 {
+    from {
+        background-position: 52px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-56 {
+    from {
+        background-position: 56px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-60 {
+    from {
+        background-position: 60px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-70 {
+    from {
+        background-position: 70px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-76 {
+    from {
+        background-position: 76px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-80 {
+    from {
+        background-position: 80px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-100 {
+    from {
+        background-position: 100px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-120 {
+    from {
+        background-position: 120px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-126 {
+    from {
+        background-position: 126px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes indeterminate-150 {
+    from {
+        background-position: 150px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
